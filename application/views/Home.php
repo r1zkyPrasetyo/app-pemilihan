@@ -94,7 +94,7 @@
 			<div class="container home-content" style="top: 40%;">
 				<img src="<?php echo base_url('assets/img/logo/'.$logo_kab);?>" width="150px" alt="logo-kabupaten-<?php echo strtolower($kabkot);?>" >
 				<h1>Selamat Datang</h1>
-				<h3>Web Informasi PILRT <?php echo $sis_pem . ' '. $desa;?></h3>
+				<h3>Web Informasi PILRT <?php echo $desa;?></h3>
 				<p>
 					<?php echo 'Kecamatan '. $kec . ' - ' .$sis_kabkot . ' '. $kabkot;?><br />
 				</p>
@@ -188,9 +188,9 @@
 		<?php if($panitia_inti->num_rows()>0){ ?>
 		<div id="sk_panitia" class="content bg-silver-lighter" data-scrollview="true">
 			<div class="container">
-				<h2 class="content-title">Panitia PILRT <?php echo $sis_pem . ' '. $desa;?></h2>
+				<h2 class="content-title">Panitia PILRT <?php echo $desa;?></h2>
 				<p class="content-desc">
-					SK Nomor : 188/1/35.09.08.2011/BPD/2019
+					SK Nomor : -
 				</p>
 				<div class="row">
 					<?php 
