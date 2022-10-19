@@ -334,22 +334,7 @@
 		</div>
 		<?php } ?>
 		<?php if($berkas->num_rows()>0){ ?>
-		<div id="video" class="content" data-scrollview="true">
-			<div class="container" data-animation="true" data-animation-type="fadeInDown">
-				<div class="row text-center">
-					<?php 
-						foreach ($berkas->result_array() as $key => $value) {
-					?>
-					<div class="col-md-3" data-animation="true" data-animation-type="fadeInRight">
-						<a href="<?php echo base_url('assets/berkas/'.$value['filename']);?> ">
-							<i class="fa fa-file-pdf fa-10x"></i>
-							<p class="m-t-10"><?php echo $value['title'];?></p>
-						</a>
-					</div>
-					<?php } ?>
-				</div>
-			</div>
-		</div>
+		
 		<!-- <div id="video" class="content" data-scrollview="true">
 			<div class="container" data-animation="true" data-animation-type="fadeInDown">
 				<div class="row">
