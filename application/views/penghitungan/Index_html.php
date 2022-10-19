@@ -117,10 +117,10 @@
 			<div class="container">
 				<div class="footer-brand">
 					<div class=""><img src="<?php echo base_url('assets/img/logo/'.$logo_kab);?>"  alt="icon-kabupaten-<?php echo strtolower($kabkot);?>" width="80px"></div>
-					<?php echo $sis_pem . ' '. $desa;?>
+					<?php echo $desa;?>
 				</div>
 				<p>
-					&copy; Copyright PILRT <?php echo $sis_pem . ' '. $desa;?>
+					&copy; Copyright PILRT <?php echo $desa;?>
 				</p>
 				<p class="social-list">
 					<a href="#"><i class="fab fa-facebook-f fa-fw"></i></a>
