@@ -96,7 +96,7 @@
 				<h1>Selamat Datang</h1>
 				<h3>Web Informasi PILRT <?php echo $desa;?></h3>
 				<p>
-					<?php echo 'Kecamatan '. $kec . ' - ' .$sis_kabkot . ' '. $kabkot;?><br />
+					<?php echo 'Kecamatan '. $kec . ' - ' . ' '. $kabkot;?><br />
 				</p>
 			</div>
 		</div>
