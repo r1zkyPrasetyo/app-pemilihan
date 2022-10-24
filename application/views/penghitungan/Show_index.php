@@ -184,7 +184,7 @@
          <hr class="bg-black-transparent-2 m-t-2 m-b-2">
          <?php } ?>
          <span class="col m-t-5">app PILRT ini dikembangkan oleh warga <span class="pull-right">Data akan direfresh
-               <span id="second_n">10</span> detik</span></span>
+               <span id="second_n">20</span> detik</span></span>
       </div>
    </div>
 </div>
