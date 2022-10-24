@@ -28,7 +28,7 @@
 					<li><a href="#ModalConfig" data-toggle="modal" onclick="get_config()"><i class="fa fa-cog"></i> Settings</a></li>
 					<li><a href="#ModalConfig" data-toggle="modal" onclick="get_user_oper()" ><i class="fa fa-user"></i> User Operator</a></li>
 					<li><a href="<?php echo $base_url_int. 'dashboard?p=set_dapil';?>"><i class="fa fa-user"></i> Setting Dapil</a></li>
-					<li><a href="<?php echo $base_url_int. 'dashboard?p=set_cakades';?>"><i class="fa fa-users"></i> Setting Cakades</a></li>
+					<li><a href="<?php echo $base_url_int. 'dashboard?p=set_cakades';?>"><i class="fa fa-users"></i> Setting Calon</a></li>
 					<!--
 						<li><a href="javascript:;"><i class="fa fa-question-circle"></i> Helps</a></li>
 					-->
