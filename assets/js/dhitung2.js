@@ -27,14 +27,14 @@ function get_result() {
    },'json');
 }
 
-var n = 30;
+var n = 10;
 var tm = setInterval(countDown,1000);
 
 function countDown(){
    n--;
    if(n == 0){
       // clearInterval(tm);
-      n=30;
+      n=10;
       get_result();
    }
    console.log(n);
