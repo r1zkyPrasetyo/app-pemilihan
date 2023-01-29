@@ -9,7 +9,7 @@
 <!--<![endif]-->
 <head>
 	<meta charset="utf-8" />
-	<title>App Pemutakhiran  | Halaman Login</title>
+	<title>App Pemutakhiran Data | Halaman Login</title>
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
 	<meta content="" name="description" />
 	<meta content="" name="author" />
@@ -37,8 +37,8 @@
 		<div class="login login-v2" data-pageload-addclass="animated fadeIn">
 			<div class="login-header">
 				<div class="brand">
-					<span class="logo"></span> <b>APP</b> Pemutakhiran 
-					<small>Tertib Administrasi, Menuju Pemutakhiran  Sukses</small>
+					<span class="logo"></span> <b>APP</b> Pemutakhiran Data
+					<small>Tertib Administrasi, Menuju Pemutakhiran Data Sukses</small>
 				</div>
 				<div class="icon">
 					<i class="fa fa-lock"></i>
