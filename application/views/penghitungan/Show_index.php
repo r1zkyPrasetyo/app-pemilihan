@@ -115,7 +115,7 @@
 <div id="page-loader" class="fade show"><span class="spinner"></span></div>
 <div id="header" class="header navbar-inverse">
    <div class="navbar-header">
-      <a href="<?php echo base_url();?>" class="navbar-brand"><span class="navbar-logo"></span> <b>PILRT</b>
+      <a href="<?php echo base_url();?>" class="navbar-brand"><span class="navbar-logo"></span> <b>Pemutakhiran </b>
          <?php echo $cfg['desa'];?></a>
       <button type="button" class="navbar-toggle" data-click="sidebar-toggled">
          <span class="icon-bar"></span>
@@ -129,9 +129,9 @@
 <div class="container">
    <div class="widget bg-silver widget-rounded m-b-30 m-t-20">
       <div class="widget-header">
-         <h3 class="widget-header-title text-indigo">QuickCOUNT PILRT
+         <h3 class="widget-header-title text-indigo">QuickCOUNT Pemutakhiran 
             <span class="text-muted pull-right f-s-12">Penetapan keputusan berdasarkan penghitungan plano panitia
-               PILRT</span></h3>
+               Pemutakhiran </span></h3>
       </div>
       <div class="p-20 p-t-0">
          <?php foreach ($calon->result_array() as $key => $value) {  ?>
@@ -183,7 +183,7 @@
          </div>
          <hr class="bg-black-transparent-2 m-t-2 m-b-2">
          <?php } ?>
-         <span class="col m-t-5">app PILRT ini dikembangkan oleh warga <span class="pull-right">Data akan direfresh
+         <span class="col m-t-5">app Pemutakhiran  ini dikembangkan oleh warga <span class="pull-right">Data akan direfresh
                <span id="second_n">20</span> detik</span></span>
       </div>
    </div>

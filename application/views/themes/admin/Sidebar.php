@@ -65,7 +65,7 @@
 				<a href="javascript:;">
 					<b class="caret"></b>
 					<i class="fa fa-chart-pie"></i>
-					<span>PILRT</span>
+					<span>Pemutakhiran </span>
 				</a>
 				<ul class="sub-menu">
 					<?php if(isset($akses['adminpilkades'])) { ?>

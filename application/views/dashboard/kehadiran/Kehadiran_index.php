@@ -10,7 +10,7 @@
 <!--<![endif]-->
 <head>
 	<meta charset="utf-8" />
-	<title>Cek Kehadiran PILRT</title>
+	<title>Cek Kehadiran Pemutakhiran </title>
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
 	<meta content="" name="description" />
 	<meta content="" name="author" />
@@ -43,7 +43,7 @@
 			<?php if(isset($dapil)){ ?>
 			<div class="login-header">
 				<div class="brand">
-					<span class="logo"></span> <b>PILRT</b>  <?php echo substr(strtoupper($dapil->dapil),0,7);?>
+					<span class="logo"></span> <b>Pemutakhiran </b>  <?php echo substr(strtoupper($dapil->dapil),0,7);?>
 					<small><?php echo $cfg['sistem'] . ' '. ucwords(strtolower($cfg['desa'])) . ' Kec. '. ucwords(strtolower($cfg['kec']));?></small>
 				</div>
 				<div class="icon">
@@ -80,7 +80,7 @@
 					<div class="d-block text-center mt-3">
 						<ul class="list-unstyled">
 							<li><a href="<?php echo base_url('dashboard?p=dashboard');?>">Kembali ke Halaman Utama</a></li>
-							<li><a href="#" target="_blank">Aplikasi PILRT dikembangkan oleh warga</a></li>
+							<li><a href="#" target="_blank">Aplikasi Pemutakhiran  dikembangkan oleh warga</a></li>
 						</ul>
 					</div>
 			</div>
@@ -96,7 +96,7 @@
 					<div class="d-block text-center mt-3">
 						<ul class="list-unstyled">
 							<li><a href="<?php echo base_url('dashboard?p=dashboard');?>">Kembali ke Halaman Utama</a></li>
-							<li><a href="#" target="_blank">Aplikasi PILRT dikembangkan oleh warga</a></li>
+							<li><a href="#" target="_blank">Aplikasi Pemutakhiran  dikembangkan oleh warga</a></li>
 						</ul>
 					</div>
 			</div>

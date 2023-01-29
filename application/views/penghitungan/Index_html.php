@@ -15,24 +15,24 @@
 <!--<![endif]-->
 <head>
 <meta charset="utf-8" />
-<title>PILRT | <?php echo $desa;?></title>
+<title>Pemutakhiran  | <?php echo $desa;?></title>
 <meta name="description" content="Web Informasi Pilkades PILKADES <?php echo $sis_pem . ' '. $desa . ' Kecamatan '. $kec . ' '. $sis_kabkot . $kabkot;?>">
 
 <!-- Google / Search Engine Tags -->
-<meta itemprop="name" content="PILRT | <?php echo $desa;?>">
+<meta itemprop="name" content="Pemutakhiran  | <?php echo $desa;?>">
 <meta itemprop="description" content="Web Informasi PILKADES <?php echo $sis_pem . ' '. $desa . ' Kecamatan '. $kec . ' '. $sis_kabkot . $kabkot;?>">
 <meta itemprop="image" content="<?php echo base_url();?>assets/img/kegiatan/400/02029138-5e62-40b9-bdca-97cefed55e8c.jpg">
 
 <!-- Facebook Meta Tags -->
 <meta property="og:url" content="<?php echo base_url('home');?>">
 <meta property="og:type" content="website">
-<meta property="og:title" content="PILRT | <?php echo $desa;?>">
+<meta property="og:title" content="Pemutakhiran  | <?php echo $desa;?>">
 <meta property="og:description" content="Web Informasi PILKADES <?php echo $sis_pem . ' '. $desa . ' Kecamatan '. $kec . ' '. $sis_kabkot . $kabkot;?>">
 <meta property="og:image" content="<?php echo base_url();?>assets/img/kegiatan/400/02029138-5e62-40b9-bdca-97cefed55e8c.jpg">
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="PILRT | <?php echo $desa;?>">
+<meta name="twitter:title" content="Pemutakhiran  | <?php echo $desa;?>">
 <meta name="twitter:description" content="Web Informasi PILKADES <?php echo $sis_pem . ' '. $desa . ' Kecamatan '. $kec . ' '. $sis_kabkot . $kabkot;?>">
 <meta name="twitter:image" content="<?php echo base_url();?>assets/img/kegiatan/400/02029138-5e62-40b9-bdca-97cefed55e8c.jpg">
 	
@@ -61,7 +61,7 @@
 					<a href="<?php echo base_url('home');?>" class="navbar-brand">
 						<span class="brand-logo"></span>
 						<span class="brand-text">
-							<span class="text-theme">PILRT</span> <?php echo $desa;?>
+							<span class="text-theme">Pemutakhiran </span> <?php echo $desa;?>
 						</span>
 					</a>
 				</div>
@@ -120,7 +120,7 @@
 					<?php echo $desa;?>
 				</div>
 				<p>
-					&copy; Copyright PILRT <?php echo $desa;?>
+					&copy; Copyright Pemutakhiran  <?php echo $desa;?>
 				</p>
 				<p class="social-list">
 					<a href="#"><i class="fab fa-facebook-f fa-fw"></i></a>

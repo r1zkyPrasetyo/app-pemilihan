@@ -61,7 +61,7 @@
 					<a href="<?php echo base_url('home');?>" class="navbar-brand">
 						<span class="brand-logo"></span>
 						<span class="brand-text">
-							<span class="text-theme">PEMRT</span> <?php echo $desa;?>
+							<span class="text-theme">Pemutakhiran </span> <?php echo $desa;?>
 						</span>
 					</a>
 				</div>
@@ -71,7 +71,7 @@
 							<a class="nav-link active" href="#home" data-click="scroll-to-target" data-scroll-target="#home">HOME</a>
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link" href="#pilkades" data-click="scroll-to-target" data-scroll-target="#pilkades" data-toggle="dropdown">PILRT <b class="caret"></b></a>
+							<a class="nav-link" href="#pilkades" data-click="scroll-to-target" data-scroll-target="#pilkades" data-toggle="dropdown">Pemutakhiran  <b class="caret"></b></a>
 							<div class="dropdown-menu dropdown-menu-left animated fadeInDown">
 								<a class="dropdown-item" href="#sk_panitia">SK Panitia</a>
 								<a class="dropdown-item" href="#kegiatan">Photo Kegiatan</a>
@@ -94,7 +94,7 @@
 			<div class="container home-content" style="top: 40%;">
 				<img src="<?php echo base_url('assets/img/logo/'.$logo_kab);?>" width="150px" alt="logo-kabupaten-<?php echo strtolower($kabkot);?>" >
 				<h1>Selamat Datang</h1>
-				<h3>Web Informasi PILRT <?php echo $desa;?></h3>
+				<h3>Web Informasi Pemutakhiran  <?php echo $desa;?></h3>
 				<p>
 					<?php echo 'Kecamatan '. $kec . ' - ' . ' '. $kabkot;?><br />
 				</p>
@@ -188,7 +188,7 @@
 		<?php if($panitia_inti->num_rows()>0){ ?>
 		<div id="sk_panitia" class="content bg-silver-lighter" data-scrollview="true">
 			<div class="container">
-				<h2 class="content-title">Panitia PILRT <?php echo $desa;?></h2>
+				<h2 class="content-title">Panitia Pemutakhiran  <?php echo $desa;?></h2>
 				<p class="content-desc">
 					SK Nomor : -
 				</p>
@@ -289,7 +289,7 @@
 						</form>
 					</div>
 					<div class="col-md-8" data-animation="true" data-animation-type="fadeInLeft">
-						<h3><b>Data Pemilih Sementara PILRT <?php echo date('Y') ?></b></h3>
+						<h3><b>Data Pemilih Sementara Pemutakhiran  <?php echo date('Y') ?></b></h3>
 						<table class="table">
 							<thead>
 								<tr>
@@ -355,7 +355,7 @@
 			<div class="container" data-animation="true" data-animation-type="fadeInDown">
 				<h2 class="content-title">Dokumentasi Photo Kegiatan Pilkades</h2>
 				<p class="content-desc">
-					Dokumentasi Kegiatan Tahapan PILRT <?php echo date('Y') ?>
+					Dokumentasi Kegiatan Tahapan Pemutakhiran  <?php echo date('Y') ?>
 				</p>
 				<div class="row row-space-10">
 					<?php 
@@ -386,7 +386,7 @@
 					<?php echo $desa;?>
 				</div>
 				<p>
-					&copy; Copyright PILRT <?php echo $desa;?>
+					&copy; Copyright Pemutakhiran  <?php echo $desa;?>
 				</p>
 				<p class="social-list">
 					<a href="#"><i class="fab fa-facebook-f fa-fw"></i></a>
